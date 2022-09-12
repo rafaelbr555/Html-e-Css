@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+   
+   
+}
+main{
+    border: black solid;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+}
+
+ .preto{
+    width: 62px;
+    height: 62px;
+    background-color: black;
+}
+.branco{
+    width: 50px;
+    height: 62px;
+}
