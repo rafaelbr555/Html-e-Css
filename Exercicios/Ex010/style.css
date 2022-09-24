@@ -1,0 +1,81 @@
+*{
+    font-family: 'Rochester', cursiva;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2? family= Edu+NSW+ACT+Foundation & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Rochester & display=swap');
+body{
+    background-image: linear-gradient(to right, #45214A,#21445B, #1A6566);
+    box-sizing: 20px;
+    
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+a:visited{
+    color: green;
+}
+button{
+    display: flex;
+    background-color: blue;
+    font-size: 16px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     margin-left: 0px;
+     margin-top: 0px;
+     padding: 2px;
+     
+
+}
+.menu > ul{
+    display: none;
+
+}
+.menu:hover > ul{
+    display: block;
+    color: red;
+
+}
+
+header{
+    padding: 20px;
+   display: flex;
+   justify-content: flex-end;
+   gap: 15px;
+   bottom: unset;
+}
+
+section{
+    display: flex;
+    justify-content: flex-start;
+}
+.principal {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+   box-shadow: 10px 10px 10px;
+}
+.secundario{
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px ;
+    
+}
+h1{
+    color: #7fb98b;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+}
+h2{
+    color: #1f7779;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+}
+.principal{
+    height: 500px;
+    width: 500px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+   
+    margin-top: 5px;
+}
+.secundario{
+    
+    text-align: justify;
+}
+

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+}
+
+.texto{
+    width: 100vw;
+    padding: 100px 0px 100px 30px;
+}
+
+.imagem{    
+    height: 100vh;
+    background-image: url(../Imagens/pattern004.png);
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+.imagem p{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
