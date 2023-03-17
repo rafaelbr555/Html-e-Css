@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header h1{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: aqua;
+}
+header li{
+    display: inline-block;
+    padding: 5px;
+}
+header ul{
+    background-color: aquamarine;
+}
+main {
+    width: 100vw;
+}
+article {
+    display: block;
+    margin: auto;
+    width: 600px;
+    text-align: justify;
+    
+}
+article h1{
+    text-align: center;
+    padding: 5px 0px;
+}
+article p{
+    text-indent: 1.5em;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(paisagem/Retatro.jpg);
+    background-position: center bottom;
+    background-color: black;
+}

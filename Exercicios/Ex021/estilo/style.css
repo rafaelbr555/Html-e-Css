@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.13);
+}
+.contenier{
+    width: 375px;
+    height: 370px;
+    border: rgba(169, 169, 169, 0.637) solid 1px;
+    text-align: center;
+    background-color: white;
+}
+
+h1{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+input{
+    margin-top: 20px;
+    padding: 10px 80px 10px 0px;
+   
+}
+.btn{
+    padding: 5px 168px 5px 0px;
+    background-color: #0095F6;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+.ihr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 30px 10px;
+    color: gray;
+    
+}
+hr{
+    width: 112px;
+    
+}
+h2{
+    margin: 0px 10px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 70px;
+    background-image: url(../imagens/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    
+}
+.link_sessao_facebook{
+    margin-bottom: 20px;
+}
+.link_senha_esquecida{
+    margin-left: 18px;
+}
+.link{
+    display: flex;
+    gap: 20px;
+}
