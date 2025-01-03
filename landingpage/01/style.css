@@ -60,7 +60,10 @@ p {
   height: 550px;
 }
 
-button {
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 600;
@@ -74,5 +77,11 @@ button {
   border: none;
 
   background-color: #22d4fd;
+  color: #000000;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:#09acd1;
 }
