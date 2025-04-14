@@ -7,28 +7,32 @@
 }
 
 header{
-  display: flex;
-  flex-direction: row;
-  gap: 80px;
+  padding: 4rem 9rem;
   background-color: #000000;
-  padding: 50px 0px 0px 370px;
+}
+nav{
+  display: flex;
+  gap: 60px;
 }
 .link_header{
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
   color: #22d4fd;
+
+}
+body{
+  background-color: #000000;
 
 }
 
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #000000;
-  padding-bottom: 200px;
+  padding: 5% 10%  20% 10%;
+  gap: 50px;
+  
 }
 
 h1,
@@ -38,35 +42,27 @@ p {
 strong {
   color: #22d4fd;
 }
-.conteudo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 615px;
-  height: 482px;
-
-  margin-right: 50px;
-}
 
 h1 {
   font-family: "Krona One", sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   font-style: normal;
   margin: 0 0 40px 0;
-  line-height: 56px;
+  line-height: 3.5rem;
 }
 
 h2{
   font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
   color: #f6f6f6;
 
 }
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   
 }
 
@@ -78,14 +74,11 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-
   margin-top: 50px;
   
 }
 
-.img {
-  margin-top: 100px;
-}
+
 
 .links_redes_sociais {
   display: flex;
@@ -93,10 +86,10 @@ p {
   align-items: center;
   gap: 16px;
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 36px;
-  padding: 16px;
+  line-height: 2.25rem;
+  padding: 1rem;
 
   width: 378px;
   height: 68px;
@@ -107,7 +100,6 @@ p {
 
  
   color:#f6f6f6;
-  font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
 
@@ -116,14 +108,41 @@ p {
 }
 
 footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   background-color: #22d4fd;
-  height: 80px;
+  padding: 1.5rem;
   font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 
 }
 .Paragrafo_footer {
   color: #000000;
+  
+}
+
+@media (max-width: 1366px) {
+  
+  header{
+    padding: 3% 8.5%;
+  }
+  main{
+    gap: 50px;
+    padding: 8% 10%  20% 10%;
+  }
+  h1{
+    font-size: 2.1rem;
+  }
+  p{
+    text-align: justify;
+    font-size: 1.4rem;
+  }
+  
+  footer{
+    padding: 0.8rem;
+  }
+ 
+  .Paragrafo_footer{
+    text-align: center;
+  }
+
 }
