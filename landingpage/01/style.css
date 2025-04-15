@@ -146,3 +146,14 @@ footer{
   }
 
 }
+@media (min-width: 1920px){
+  header{
+    padding: 3% 0 0 20%;
+  }
+
+  main{
+    gap: 50px;
+    padding: 8% 20%  20% 20%;
+  }
+  
+}
