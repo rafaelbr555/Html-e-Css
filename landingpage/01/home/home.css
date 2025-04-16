@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+  --white-color:#f6f6f6;
+  --black-color:#000000; 
+  --light-blue-color:#22d4fd;
+
+  --Primary-ource: "Krona One", sans-serif;
+  --Secondary-source:"Montserrat", sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,22 +18,22 @@
 
 header{
   padding: 4rem 9rem;
-  background-color: #000000;
+  background-color: var(--black-color);
 }
 nav{
   display: flex;
   gap: 60px;
 }
 .link_header{
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--Secondary-source);
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
-  color: #22d4fd;
+  color: var(--light-blue-color);
 
 }
 body{
-  background-color: #000000;
+  background-color: var(--black-color);
 
 }
 
@@ -34,17 +44,23 @@ main {
   gap: 50px;
   
 }
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
 
 h1,
 p {
-  color: #f6f6f6;
+  color: var(--white-color);
 }
 strong {
-  color: #22d4fd;
+  color: var(--light-blue-color);
 }
 
 h1 {
-  font-family: "Krona One", sans-serif;
+  font-family: var(--Primary-ource);
   font-size: 2.25rem;
   font-weight: 400;
   font-style: normal;
@@ -53,14 +69,14 @@ h1 {
 }
 
 h2{
-  font-family: "Krona One", sans-serif;
+  font-family: var(--Primary-ource);
   font-weight: 400;
   font-size: 1.5rem;
-  color: #f6f6f6;
+  color: var(--white-color);
 
 }
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--Secondary-source);
   font-size: 1.5rem;
   line-height: 2.25rem;
   
@@ -85,7 +101,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--Secondary-source);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 2.25rem;
@@ -96,27 +112,28 @@ p {
   
 
   border-radius: 8px;
-  border: solid #22d4fd 2px;
+  border: solid var(--light-blue-color) 2px;
 
  
-  color:#f6f6f6;
+  color:var(--white-color);
   text-decoration: none;
 }
 
 .links_redes_sociais:hover {
-  background-color:#09acd1;
+  background-color:#c9c9c957;
+
 }
 
 footer{
   text-align: center;
-  background-color: #22d4fd;
+  background-color: var(--light-blue-color);
   padding: 1.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--Secondary-source);
   font-size: 1.5rem;
 
 }
 .Paragrafo_footer {
-  color: #000000;
+  color: var(--black-color);
   
 }
 
