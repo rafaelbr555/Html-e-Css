@@ -17,7 +17,7 @@
 }
 
 header{
-  padding: 4rem 9rem;
+  padding: 2% 18%;
   background-color: var(--black-color);
 }
 nav{
@@ -38,17 +38,22 @@ body{
 }
 
 main {
+  padding: 5% 18% 15% 18%;
   display: flex;
-  justify-content: center;
-  padding: 5% 10%  20% 10%;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 82px;
+ 
   
 }
 .conteudo{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  width: 50%;
+  gap: 40px;
 
+}
+.img{
+  width: 50%;
 }
 
 h1,
@@ -107,8 +112,8 @@ p {
   line-height: 2.25rem;
   padding: 1rem;
 
-  width: 378px;
-  height: 68px;
+  width: 50%;
+  
   
 
   border-radius: 8px;
@@ -140,7 +145,7 @@ footer{
 @media (max-width: 1366px) {
   
   header{
-    padding: 3% 8.5%;
+    padding: 3% 10%;
   }
   main{
     gap: 50px;
@@ -163,14 +168,27 @@ footer{
   }
 
 }
-@media (min-width: 1920px){
+@media (max-width: 1024px){
+
   header{
-    padding: 3% 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0% 3% 0%;
   }
 
   main{
-    gap: 50px;
-    padding: 8% 20%  20% 20%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
   }
-  
+  .conteudo{
+    width: 80%;
+  }
+  footer{
+    margin-top: 100px;
+  }
+ 
 }
